@@ -2,17 +2,17 @@
 A block to add in your i3bar with i3status-rs.
 It use the binance-v2 API.
 
-# Install dependencies
+## Install dependencies
 ```sh
 go get github.com/adshao/go-binance/v2
 ```
 
-# How to use
+## How to use
 1. Clone the repositoty
 2. Add your credentials in a file credentials.json in the cloned repository
 ```json
 {
-    "apiKey": "your binance api key"
+    "apiKey": "your binance api key",
     "secretKey": "your binance secret key"
 }
 ```
